@@ -24,13 +24,13 @@ my_list.append(((df[col].value_counts()[df[col].value_counts() == df[col].value_
 ax = df[col].value_counts().head().plot(kind='bar',  color=sns.color_palette("husl", 8), legend=False)
 ax.set_title("Most Popular Starting Stations", size = 20)
 
-ax.set_xlabel("Starting Station ID Numbers", size = 15)
-ax.set_ylabel("Number of times used", size = 15)
+ax.set_xlabel("Starting Station ID Numbers", size = 9)
+ax.set_ylabel("Number of times used", size = 9)
 ttl = ax.title
-ttl.set_position([.5, 1.05])
+ttl.set_position([.5, 1.0])
 
 
-ax.patch.set_facecolor('white')
+#ax.patch.set_facecolor('black')
 plt.savefig("demo.png")
 
 
