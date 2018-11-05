@@ -17,6 +17,6 @@ Submission (deployment link): https://capitalonewebapp.herokuapp.com/
 - **How many riders include bike sharing as a regular part of their commute?
 
 # How objectives were completed
-I tried to export the code that I had written in Python for my data analysis as a JSON/JS Module that I could plug right into the HTML code to make it interactive within the web-app, but I was facing difficulties doing that. Therefore, I decided to export the Python code as a .png file, which I plugged into the HTML Code. If I had experience with JS, I would've loved to make the web-app more interactive, but i still believe that my current code serves the purpose! I really enjoyed working with the UX.
+I tried to export the code that I had written in Python for my data analysis as a JSON/JS Module that I could plug right into the HTML code to make it interactive within the web-app, but I was facing difficulties doing that. Therefore, I decided to export the Python code as a .png file, which I plugged into the HTML Code. If I had experience with JS, I would've loved to make the web-app more interactive, but i still believe that my current code serves the purpose! 
 
-Otherwise, I loved learning more about HTML and the different libraries within python through this development process.
+Otherwise, I really enjoyed working with the UX and loved learning more about HTML and the different libraries within python through this development process.
