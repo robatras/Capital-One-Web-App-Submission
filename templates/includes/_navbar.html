@@ -3,67 +3,53 @@
 <html lang="en">
 
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="http://cdn.sstatic.net/stackoverflow/img/favicon.ico">
-
-    <title>Album example for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
   </head>
 
   <body>
 
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse bg-white" id="navbarHeader">
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-white">Hello! Thanks for visiting. My name is Rohan Batra, a sophomore at the University of Michigan, Ann Arbor. This is a web-application I developed of bike share data within the city of Los Angeles, California. This app aims to illustrate 3 important points, which include:
-              <p class="text-white" >1) Most popular start/stop stations
-              <p class="text-white" >2) The average distance traveled 
-          	  <p class="text-white" >3) How many riders include bike sharing as a regular part of their commute?
+              <h4 class="text-dark">About</h4>
+              <p class="text-dark">Hey there! Thanks for visiting. My name is Rohan Batra, a sophomore at the University of Michigan, Ann Arbor. This is a web-application that I developed of bike-share data within the city of Los Angeles, California. This app aims to illustrate some important concepts, which include:
+              <p class="text-dark" >1) Most popular start/stop stations
+              <p class="text-dark" >2) The average distance traveled 
+          	  <p class="text-dark" >3) How many riders include bike sharing as a regular part of their commute?
+          	  <p class="text-dark" > ... and much more - Check it out!
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
+              <h4 class="text-dark">Contact</h4>
               <ul class="list-unstyled">
-                <li><a href="https://www.linkedin.com/in/rohan-batra-b92699111" target="_blank" class="text-white">Connect on Linkedin</a></li>
-                <li><a href="mailto:batrar@umich.edu" target="_top" class="text-white"> Email me</a></li>
-                <li><a href="https://www.capitalone.com/" target="_blank" class="text-white">Link to Capital One</a></li>
+                <li><a href="https://www.linkedin.com/in/rohan-batra-b92699111" target="_blank" class="text-dark">Connect on Linkedin</a></li>
+                <li><a href="mailto:batrar@umich.edu" target="_top" class="text-dark"> Email me</a></li>
+                <li><a href="https://www.capitalone.com/" target="_blank" class="text-dark">Link to Capital One</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="navbar navbar-dark bg-white shadow-sm">
         <div class="container d-flex justify-content-center">
           <a href="#" class="navbar-brand d-flex align-items-center">
            <img class src= "https://assets.themuse.com/uploaded/companies/901/small_logo.png?v=bc386caca24fd3bd38c400fa365214bc861f681b4dc997a9d4ec4c1e35f46679"  width="150" height=75" ></svg>
           
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
       </div>
     </header>
 
-    <main role="main">
 
       <section class="jumbotron text-center bg-warning">
         <div class="container">
           <h1 class="jumbotron-heading">Welcome!</h1>
-          <p class="lead text-dark">My name is Rohan Batra and here is my web-app for bike share data. I integrated Matplotlib, Seaborn, Pandas, Bootstrap, Flask for the visualizations, constructing models, and web programming. Check it out!</p>
+          <p class="lead text-dark">My name is Rohan Batra and here is my web-app for bike share data. I integrated Matplotlib, Seaborn, Pandas, Bootstrap, and Flask for the visualizations, constructing models, and web programming. Check it out!</p>
           <p>
-            <a href="#" class="btn btn-danger my-2">About Me</a>
+            <a href="#" class="btn btn-danger my-2">My GitHub Repository</a>
           </p>
         </div>
       </section>
@@ -74,69 +60,107 @@
           <div class="row ">
             <div class="col-md-6">
               <div class="card mb-5 shadow-sm bg-warning">
-                <img class src="https://image.ibb.co/h8Wx00/popular-ID-start.png"  >
+                <img class src="https://image.ibb.co/fRFA50/popular-starting-stations.png" >
                 <div class="card-body">
-                  <p class="card-text">The graph above illustrates the most common starting stations ID's. Most popular stations occured during the fall season in LA. For example, station 3069 was used between the months of  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <p class="card-text">The graph above illustrates the 5 most popular starting stations ID's to start a bike ride. It looks like <strong>Station 3069</strong> is the most popular place to start a bike ride. </p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group  align-items-center ">
+                      <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv" target="_blank">View Source Code</a>
+                      <a class="btn btn-outline-danger" href="https://goo.gl/maps/pzj8UQZXsMw" target="_blank">Station 3069 on the Map</a>
+                     
                     </div>
-                    <small class="text-muted">Just Viewed</small>
+        
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="card mb-6 shadow-sm bg-warning">
-                <img class src="https://image.ibb.co/h8Wx00/popular-ID-start.png" >
+                <img class src="https://image.ibb.co/bxDYsf/popular-ending-stations.png" >
 
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">Just Viewed</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card mb-4 shadow-sm bg-warning ">
-				<img src="https://preview.ibb.co/k0L700/Screen-Shot-2018-11-04-at-1-55-06-AM.png" >               
-				<div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                    
-                      <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv">Open Map</a>
+                  <p class="card-text">The graph above illustrates the 5 most popular ending stations ID's to end a bike ride. It looks like <strong>Station 3005</strong> is the most popular place to end a bike ride. </p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group  align-items-center ">
+                      <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv" target="_blank">View Source Code</a>
+                      <a class="btn btn-outline-danger" href="https://goo.gl/maps/pcN3cSTPTfm" target="_blank">Station 3005 on the Map</a>
                      
                     </div>
-                    <small class="text-muted">Just Viewed</small>
+                
                   </div>
                 </div>
               </div>
             </div>
-           
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm bg-warning ">
+				<img src="https://image.ibb.co/hrnuiL/number-Ridesper-Month.png"" >               
+				<div class="card-body">
+                  <p class="card-text">Here, it is evident that the months between <strong>June and December </strong> is when the number of rides is the highest. Logically, this makes sense as August is when the weather is hot in LA.  </p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                    
+                        <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv" target="_blank">View Source Code</a>
+                     
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
 
               <div class="col-md-6">
               <div class="card mb-4 shadow-sm bg-warning ">
-				<img src="https://preview.ibb.co/gzkzhf/trial.png">              
+				<img src="https://image.ibb.co/eGzJA0/passholdertype.png">              
 				<div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
+                  <p class="card-text">Approximately <strong>2/3 </strong>of the commuters hold monthly passes, while the other <strong>1/3 </strong> simply "walk up." The rest consist of either having the flex pass or staff annual pass.</p>
+                  <div class="d-flex justify-content-center align-items-center">
                     <div class="btn-group">
                     
-                      <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv">Open Map</a>
-                     
+                      
+                        <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv" target="_blank">View Source Code</a>
                     </div>
-                    <small class="text-muted">Just Viewed</small>
+                 
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm bg-warning ">
+				<img src="https://image.ibb.co/mwe7L0/avg-distance.png">              
+				<div class="card-body">
+                  <p class="card-text">After calculating the initial average distance traveled, it was higher than expected. However, after analyzing data, there were some outliers that were skewing the results. After getting rid of these outliers and recalculating, the average distance traveled was approximately <strong> 0.66 miles</strong>.</p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                    
+                     <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv" target="_blank">View Source Code</a>
+                     
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           <div class="col-md-6">
+              <div class="card mb-4 shadow-sm bg-warning ">
+				<img src="https://image.ibb.co/f9NoSf/routes.png">              
+				<div class="card-body">
+                  <p class="card-text">Here, more than <strong> 90%</strong> used a one-way route trip than a round-trip. This may be due to several factors, including time, other modes of transportations, and perhaps differing costs depending on the type of pass they have.</p>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <div class="btn-group">
+                    
+                       <a class="btn btn-outline-danger" href="https://goo.gl/maps/GUGGnERvpPv" target="_blank">View Source Code</a>
+                     
+                    </div>
+     
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
