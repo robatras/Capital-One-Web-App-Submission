@@ -3,7 +3,7 @@
 
 Challenge: https://www.mindsumo.com/contests/bikeshare-data
 
-Submission (deployment link): https://capitalonewebapp.herokuapp.com/
+Submission (deployment link): https://Batra-Bike-Analyzer.herokuapp.com
 
 
 # Built With...
